@@ -3,6 +3,6 @@ var cordova = require('cordova'),
 window.echo = function(str, callback) {
     cordova.exec(callback, function(err) {
         callback('Nothing to echo.');
-    }, "Echo", "echo", [str]);
+    }, "EchoABC", "echo", [str]);
 };
 module.exports = window.echo;

@@ -5,13 +5,13 @@
     <description>Cordova Echo Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,echo</keywords>
-    <js-module src="www/echo.js" name="echo">
-        <clobbers target="echo" />
+    <js-module src="www/echo.js" name="echo"> <!--name: 使用cordova.require才有作用,任意-->
+        <clobbers target="echo" /> <!--clobbers: javascript文件中module.exports 的别名,可以是zhongyuan等任意值-->
     </js-module>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="Echo">
-                <param name="ios-package" value="Echo"/>
+            <feature name="EchoABC">  <!--javascript中的第二个参数(Echo),可随意设置-->
+                <param name="ios-package" value="Echo"/>  <!--value: 类名,因为Echo.h中定义了Echo类,所以此处不可变-->
             </feature>
         </config-file>
         <header-file src="src/ios/Echo.h" />
