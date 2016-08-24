@@ -5,16 +5,16 @@
     <description>Cordova Echo Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,echo</keywords>
-    <js-module src="www/echo.js" name="device">
+    <js-module src="www/echo.js" name="echo">
         <clobbers target="echo" />
     </js-module>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="Echo">
-                <param name="ios-package" value="CDVEcho"/>
+                <param name="ios-package" value="Echo"/>
             </feature>
         </config-file>
-        <header-file src="src/ios/CDVEcho.h" />
-        <source-file src="src/ios/CDVEcho.m" />
+        <header-file src="src/ios/Echo.h" />
+        <source-file src="src/ios/Echo.m" />
     </platform>
 </plugin>
