@@ -10,6 +10,16 @@
 
 继承自`CDVPlugin`
 
+
+## 使用
+
+```
+cordova plugin add **
+```
+
+
+
+
 ### 参考
 
 - [Plugin Development Guide](https://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html)
