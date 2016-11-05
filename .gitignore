@@ -1,3 +1,6 @@
 .idea
 example/demo01/platforms
 example/demo01/plugins
+node_modules
+.svn
+.DS_Store
