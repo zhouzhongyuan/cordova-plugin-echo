@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  XiBu_theWasteOfInvestment
+//
+//  Created by 王吉源 on 16/6/20.
+//  Copyright © 2016年 王吉源. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import "Macro.h"
+//#import "UIView+ST.h"
+#import "UIColor+Extension.h"
+//#import "AppDelegate.h"
+//#import "UIImageView+WebCache.h"
+//#import "UIButton+WebCache.h"
+#import "RootTableView.h"
+#import "UIViewController+JY.h"
+//#import "NSString+Extension.h"
+#import "AppDelegate.h"
+#import "Sigleton.h"
+#import "SVProgressHUD.h"
+#endif

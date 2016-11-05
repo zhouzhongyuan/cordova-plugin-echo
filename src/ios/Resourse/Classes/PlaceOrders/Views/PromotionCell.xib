@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="PromotionCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="不急不急，吾等必一击质敌" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzy-Xg-EG2">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="k9F-es-TE3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2a-2V-jTP">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="1eY-3W-wmY"/>
+                            <constraint firstAttribute="height" constant="20" id="6sI-aW-SX4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.5450980392" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WDb-qo-uhp">
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="yaU-WS-9ui"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IOh-XK-pOf">
+                        <color key="backgroundColor" red="0.78823529410000004" green="0.0" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="eux-XE-4r5"/>
+                            <constraint firstAttribute="height" constant="20" id="kZf-GI-f1Y"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="删除">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FC5-HI-EZs">
+                        <color key="backgroundColor" red="0.78823529410000004" green="0.0" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="4Nl-xu-wLZ"/>
+                            <constraint firstAttribute="width" constant="50" id="QRl-Rg-0Vh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="分配">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uk-JL-3IB">
+                        <color key="backgroundColor" red="0.11764705882352941" green="0.50196078431372548" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="AJl-Db-1Pc"/>
+                            <constraint firstAttribute="height" constant="20" id="O2q-Pv-SeS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="编辑">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cv-70-x9G">
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.5450980392" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSB-q7-v1E">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="MKD-W0-fhw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.5450980392" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="FC5-HI-EZs" firstAttribute="leading" secondItem="3uk-JL-3IB" secondAttribute="trailing" constant="10" id="0Ia-lo-edE"/>
+                    <constraint firstItem="HSB-q7-v1E" firstAttribute="top" secondItem="lzy-Xg-EG2" secondAttribute="bottom" id="12e-Jo-QKj"/>
+                    <constraint firstItem="z2a-2V-jTP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="2uC-SI-g5Y"/>
+                    <constraint firstItem="6cv-70-x9G" firstAttribute="leading" secondItem="z2a-2V-jTP" secondAttribute="trailing" id="4gX-dA-2g1"/>
+                    <constraint firstItem="FC5-HI-EZs" firstAttribute="top" secondItem="WDb-qo-uhp" secondAttribute="bottom" constant="5" id="AEE-1Q-eh0"/>
+                    <constraint firstItem="z2a-2V-jTP" firstAttribute="top" secondItem="lzy-Xg-EG2" secondAttribute="bottom" id="C5J-Pb-qWk"/>
+                    <constraint firstItem="WDb-qo-uhp" firstAttribute="top" secondItem="z2a-2V-jTP" secondAttribute="bottom" id="DvP-hG-s4C"/>
+                    <constraint firstItem="6cv-70-x9G" firstAttribute="top" secondItem="lzy-Xg-EG2" secondAttribute="bottom" id="IwP-n6-cto"/>
+                    <constraint firstAttribute="trailing" secondItem="HSB-q7-v1E" secondAttribute="trailing" constant="15" id="KVk-0H-0z1"/>
+                    <constraint firstItem="3uk-JL-3IB" firstAttribute="top" secondItem="WDb-qo-uhp" secondAttribute="bottom" constant="5" id="OAR-xR-4pL"/>
+                    <constraint firstItem="IOh-XK-pOf" firstAttribute="leading" secondItem="FC5-HI-EZs" secondAttribute="trailing" constant="10" id="TJO-Yn-Vhu"/>
+                    <constraint firstItem="IOh-XK-pOf" firstAttribute="top" secondItem="WDb-qo-uhp" secondAttribute="bottom" constant="5" id="bsP-i6-XFe"/>
+                    <constraint firstItem="WDb-qo-uhp" firstAttribute="top" secondItem="HSB-q7-v1E" secondAttribute="bottom" id="eS9-wa-l7u"/>
+                    <constraint firstItem="lzy-Xg-EG2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="ejQ-Ke-hIL"/>
+                    <constraint firstItem="WDb-qo-uhp" firstAttribute="top" secondItem="6cv-70-x9G" secondAttribute="bottom" id="gFV-Aw-rqi"/>
+                    <constraint firstAttribute="trailing" secondItem="WDb-qo-uhp" secondAttribute="trailing" constant="15" id="jRw-Y6-cLE"/>
+                    <constraint firstItem="HSB-q7-v1E" firstAttribute="leading" secondItem="6cv-70-x9G" secondAttribute="trailing" id="jjJ-P7-Cd5"/>
+                    <constraint firstItem="WDb-qo-uhp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="rRC-LD-W8e"/>
+                    <constraint firstAttribute="trailing" secondItem="lzy-Xg-EG2" secondAttribute="trailing" constant="15" id="t0J-z0-vIE"/>
+                    <constraint firstAttribute="trailing" secondItem="IOh-XK-pOf" secondAttribute="trailing" constant="15" id="toJ-d1-e70"/>
+                    <constraint firstItem="lzy-Xg-EG2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="x2b-HA-Nzu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="delButton" destination="IOh-XK-pOf" id="bEK-3P-a2F"/>
+                <outlet property="editButton" destination="3uk-JL-3IB" id="s3k-Oo-BSG"/>
+                <outlet property="priceLabel" destination="6cv-70-x9G" id="qLZ-F9-rUc"/>
+                <outlet property="ruleLabel" destination="lzy-Xg-EG2" id="dXo-qD-fGU"/>
+                <outlet property="sendButton" destination="FC5-HI-EZs" id="v1T-tR-xwy"/>
+                <outlet property="totlePriceLabel" destination="HSB-q7-v1E" id="wWP-LD-ZIF"/>
+                <outlet property="typeLabel" destination="z2a-2V-jTP" id="hJ1-Bd-aCh"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
